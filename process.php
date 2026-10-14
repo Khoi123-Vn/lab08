@@ -7,6 +7,6 @@ if ($username == 'KHOI' && $password == '181818') {
 $_SESSION['user'] = $username;
 header('Location: welcome.php');
 } else {
-echo "Invalid login. <a href='login.html'>Try again</a>";
+echo "Invalid login. <a href='login.php'>Try again</a>";
 }
 ?>
